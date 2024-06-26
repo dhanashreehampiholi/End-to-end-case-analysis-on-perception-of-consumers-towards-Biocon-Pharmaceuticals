@@ -2,6 +2,8 @@
 
 ## Topic of study:
 
+<img width="244" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/cc950f10-83b6-4c7a-a8cf-dc57a4784936">
+
 Biocon Pharmaceuticals Ltd is a subsidiary or division of Biocon Limited that specifically deals with the pharmaceutical aspect of the business. It plays a significant role in the development, manufacturing, and distribution of pharmaceutical products. This includes the production of generic medicines, biosimilars (biological products similar to existing biologics), and other pharmaceutical formulations. 
 
 This study aims to conduct the survey and a series of analysis to understand the consumer perception towards the Biocon Pharmaceutical Ltd. products.
@@ -117,97 +119,140 @@ It involves
 
 ### Data preprocessing:
 
-The data that is obtained from the Google form is an inconsistent data. It has missing values, datatypes are not the same and some have special characters. In order to remove
-inconsistency, data preprocessing is done using Excel. The preprocessed data now appears as shown in the diagram below.
+The data that is obtained from the Google form is an inconsistent data. It has missing values, datatypes are not the same and some have special characters. In order to remove inconsistency, data preprocessing is done using Excel. 
 
+The preprocessed data now appears as shown in the diagram below.
 
-
-
+<img width="464" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/8c45d871-0c9b-43e2-9057-976f15d89d04">
 
 
 ## Exploratory Data Analysis:
-EDA is carried out on the collected data to get the summary statistics and visualizations in order to analyze the main characteristics of the data to gain insights. This is carried out using
-Python.
+
+EDA is carried out on the collected data to get the summary statistics and visualizations in order to analyze the main characteristics of the data to gain insights. This is carried out using Python.
 
 ### Univariate analysis using JMP:
 
 
+<img width="358" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/82736384-5c50-4e6d-8b3d-544b149f3f19">
 
+Interpretation: It can be inferred that, 71% of the respondents are students while 28% of the respondents are male.
 
+<img width="369" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/ed07db8f-d124-43a8-a179-0d10d2bbc349">
 
-Interpretation: It can be inferred that, 71% of the respondents are students while 28% of the
-respondents are male.
+Interpretation: It can be inferred that, 71% of the respondents are students while 28% of the respondents are employees.
 
+<img width="454" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/efe71e7a-457c-43a5-8381-880aa125d72d">
 
-Interpretation: It can be inferred that, 71% of the respondents are students while 28% of the
-respondents are employees.
+Interpretation: It can be inferred that, the range of income lies between Rs.45000 to Rs.1200000.
 
+<img width="459" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/b9e1a437-2aa8-421c-a9ed-4512bd555861">
 
-Interpretation: It can be inferred that, the range of income lies between Rs.45000 to
-Rs.1200000.
+Interpretation: It can be inferred that, Bicon Pharceuticals Ltd. has been able to build a reputation and gain a trust of 4 on the scale of 5.
 
+<img width="456" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/b7e39997-c876-4f49-98e4-1f84773284dd">
 
-Interpretation: It can be inferred that, Bicon Pharceuticals Ltd. has been able to build a
-reputation and gain a trust of 4 on the scale of 5.
+Interpretation: It can be inferred that customers are satisfied with 3.6 rating with the Bicon Pharceuticals Ltds. quality on the scale of 5.
 
+<img width="457" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/cf68944c-e53c-485c-b8ab-a3e3c79cbda2">
 
-Interpretation: It can be inferred that customers are satisfied with 3.6 rating with the Bicon
-Pharceuticals Ltds. quality on the scale of 5.
+Interpretation: It can be inferred that customers would prefer the Bicon Pharceuticals Ltd. product 3.7 times than the other companies on a scale of 5.
 
+<img width="463" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/a2e03836-2b0e-40d3-ac12-1e661b811e39">
 
-Interpretation: It can be inferred that customers would prefer the Bicon Pharceuticals Ltd.
-product 3.7 times than the other companies on a scale of 5.
+Interpretation: It can be inferred that Bicon Pharceuticals Ltds. is able to meet the expectations of the consumers at 3.7 rating on the scale of 5.
 
+<img width="465" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/b7f55cf9-7ca5-4289-8749-4c3671774a64">
 
-Interpretation: It can be inferred that Bicon Pharceuticals Ltds. is able to meet the
-expectations of the consumers at 3.7 rating on the scale of 5.
+Interpretation: It can be inferred that customers are updated with the latest Bicon Pharceuticals Ltds. information on a rating of 3.2 out of 5.
 
+<img width="350" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/6eb75630-6589-4ae6-8e22-86194db44246">
 
-Interpretation: It can be inferred that customers are updated with the latest Bicon
-Pharceuticals Ltds. information on a rating of 3.2 out of 5.
+Interpretation: It can be inferred that 73% of the customers would recommend Biocon products to others while 26% of them would not recommend.
 
+<img width="458" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/450f744e-e630-4439-bee2-be285b8b7618">
 
-Interpretation: It can be inferred that 73% of the customers would recommend Biocon
-products to others while 26% of them would not recommend.
-
-
-Interpretation: It can be inferred that customers spend on an average Rs.524 on monthly basis
-on Bicon Pharceuticals Ltd. products.
+Interpretation: It can be inferred that customers spend on an average Rs.524 on monthly basis on Bicon Pharceuticals Ltd. products.
 
 
 ### Bivariate Analysis:
 Using Python
 Firstly, the libraries are imported in order to carry out the steps.
 
+<img width="249" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/af9d129b-6384-4c32-b521-0d2a4542c177">
 
 Then the .csv file is imported using the following code.
 
+<img width="465" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/29d4c401-2064-4e7a-a3e7-711a7f43f474">
 
 For quantitative data:
 Pairwise Plot
 The pairwise plot below gives the relationship between different variables showing the
 distribution of each variable.
 
+<img width="456" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/3da23982-761d-4176-9c9c-2d46c262620d">
+
+
 
 For Categorical data(Count plots)
 Gender:
 
+<img width="277" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/29b1d34a-4f21-4849-9cb8-286d49afaaae">
+
+
+<img width="374" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/be9e4991-8350-4641-bfed-a52aa8ad20fb">
 
 Occupation:
 
+<img width="360" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/6a2b92c4-eafd-4065-b09c-9fef0a9b0431">
 
 Recommendation:
 
+<img width="354" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/8376d35f-3cf1-49fe-918c-28126b86f590">
 
 ## Data Reduction Methods: (Using JMP)
 
-From the factor loading, it is seen that there are two factors that can be considered. These can be divided into two clusters. Based on the Quality and Expectations, the customers are named
-as ‘Satisfactiory Customers’, based on Information updates and Suggestions, customers are named as ‘Engaged Customers’.
+<img width="377" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/f55c665b-32f8-40cc-ab8d-8227d2acd249">
+
+
+<img width="365" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/0c6846aa-b574-4086-afdf-c522caf9b8e2">
+
+
+<img width="168" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/9522f057-99ba-4efa-a0e5-a0ffb2b0526b">
+
+
+
+<img width="173" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/b61698e5-a2d9-4afb-b37f-53106c87e3e6">
+
+
+
+<img width="515" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/2fcc7c98-4bd5-49a7-9eae-c8af740d0727">
+
+
+
+<img width="398" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/976905bd-50a6-4968-9016-5c15e0b26a11">
+
+
+
+<img width="302" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/fd6d688f-2738-421e-847f-4252e56a98d5">
+
+
+
+From the factor loading, it is seen that there are two factors that can be considered. These can be divided into two clusters. Based on the Quality and Expectations, the customers are named as ‘Satisfactiory Customers’, based on Information updates and Suggestions, customers are named as ‘Engaged Customers’.
+
 Cluster 1: Satisfactory customers
+
 Cluster 2: Engaged customers
 
 
 We now go for correlation matrix:
+
+
+<img width="461" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/e04bdd7f-58ab-40d3-b933-aa3bc8b8f93a">
+
+
+
+<img width="369" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/bcee5b9c-6292-4cba-a6c6-4a548002f101">
+
 
 We can visualize the correlation matrix using heatmap as follows:
 
@@ -215,13 +260,21 @@ From the above heatmap, it can inferred that Annual Income has the problem of mu
 
 ### Cross Tabulation:
 
+<img width="274" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/7b2779b8-d042-4cf4-8bbc-b955e29ffa25">
+
 #### Marginal probability:
 
+<img width="442" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/77852183-992e-4a62-ad2d-88baecb25837">
+
 #### Conditional probability:
+
+<img width="445" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/95f731f8-c6b0-4072-a0bc-c56e65ccc9c4">
 
 It can be inferred that, 39% of male are Employees and 19% of female are Employees among the 28% of totally employed respondents.
 
 #### Joint probablity:
+
+<img width="455" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/bb0ab5eb-6981-4504-9a97-d08ce32609f7">
 
 It can be inferred that, of the total number of employed respondents, 36% of them are female and 64% of them are male.
 
@@ -230,6 +283,8 @@ It can be inferred that, of the total number of employed respondents, 36% of the
 The dataset is divided into Training and Testing data as follows. For this, the libraries essential for performing Train-test split are imported.
 
 ### Train test split:
+
+<img width="411" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/c16d7e6b-8c89-4fff-9fff-c63464fd5fc4">
 
 The dummy variables for the categorical data such as Gender and Occupation are created.
 
