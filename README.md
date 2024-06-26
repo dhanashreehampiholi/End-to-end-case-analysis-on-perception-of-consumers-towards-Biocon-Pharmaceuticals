@@ -194,20 +194,30 @@ distribution of each variable.
 
 
 For Categorical data(Count plots)
+
 Gender:
 
 <img width="277" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/29b1d34a-4f21-4849-9cb8-286d49afaaae">
 
 
+
 <img width="374" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/be9e4991-8350-4641-bfed-a52aa8ad20fb">
+
+
 
 Occupation:
 
+
 <img width="360" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/6a2b92c4-eafd-4065-b09c-9fef0a9b0431">
+
+
 
 Recommendation:
 
+
 <img width="354" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/8376d35f-3cf1-49fe-918c-28126b86f590">
+
+
 
 ## Data Reduction Methods: (Using JMP)
 
@@ -288,15 +298,38 @@ The dataset is divided into Training and Testing data as follows. For this, the 
 
 The dummy variables for the categorical data such as Gender and Occupation are created.
 
+
 The LabelEncoder is used to encode the dependent variable ‘Recommendation’.
+
+<img width="468" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/854548a6-93b2-4064-a64d-66b84248e965">
+
+
+<img width="454" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/c17450f2-3262-4600-b151-5a37e3b4c935">
 
 Standardization:
 
+<img width="438" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/e99bfc01-c608-476a-af89-3aebafd5ccbe">
+
+
+<img width="457" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/00b46c1a-4274-4d18-afd9-337d7ddd6217">
+
+
 #### Simple Linear Regression:
+
+
+<img width="344" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/43d7aa40-5c75-4bd7-a2f7-6cf2e65db1d0">
+
 
 It can be inferred that 45% of variation in recommendation of Biocon pharma products is explained by several other factors.
 
+
+<img width="408" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/00698c51-a4f5-4c14-b064-fcf9e40cb6b5">
+
+
 #### Logistic Regression:
+
+<img width="399" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/54d4fdce-c0f4-4aa9-b6b2-bca84e65887b">
+
 
 ##### Precision:
 
@@ -348,6 +381,11 @@ With logistic regression, an accuracy of 80% is obtained for the model.
 
 #### K nearest neighbours:
 
+
+<img width="394" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/146d24b9-79d9-463e-8020-0774bd34adab">
+
+
+
 ##### Precision:
 
 For class 0: Precision is 1.00, indicating that when the model predicts class 0, it is correct all
@@ -387,6 +425,11 @@ Weighted-average F1-score: 0.89
 
 #### Decision Tree:
 
+
+<img width="352" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/e00e2639-62fe-4c3e-8cfd-5f485900feb2">
+
+
+
 ##### Precision:
 
 For class 0 (precision = 1.00): All instances predicted as class 0 were actually class 0.
@@ -424,6 +467,9 @@ Weighted-average F1-score (0.89): The average F1-score across both classes, weig
 
 #### Random Forest:
 
+<img width="456" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/b07b0796-a56e-44ce-aa91-602c3d4a7c1a">
+
+
 ##### Precision:
 
  Precision for class 0: 0.00 (No true positives for class 0, hence precision is 0)
@@ -457,6 +503,9 @@ Macro-average F1-score: 0.41 (The average F1-score across both classes, giving e
 Weighted-average F1-score: 0.58 (The average F1-score across both classes, weighted by the number of instances in each class)
 
 #### Naïve Bayes:
+
+<img width="297" alt="image" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/0db3aa36-e50e-4e68-85af-40bc9c04342d">
+
 
 ##### Precision:
 
