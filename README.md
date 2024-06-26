@@ -243,7 +243,7 @@ It can be inferred that 45% of variation in recommendation of Biocon pharma prod
 
 #### Logistic Regression:
 
-Precision:
+##### Precision:
 
 For class 0: Precision is 1.00, indicating that when the model predicts class 0, it is correct all
 the time.
@@ -252,7 +252,7 @@ For class 1: Precision is 0.78, indicating that when the model predicts class 1,
 78% of the time.
 
 
-Recall:
+##### Recall:
 
 For class 0: Recall is 0.33, indicating that the model correctly identifies only 33% of the
 instances belonging to class 0.
@@ -261,25 +261,181 @@ For class 1: Recall is 1.00, indicating that the model correctly identifies all 
 belonging to class 1.
 
 
-F1 Score:
+##### F1 Score:
 
 For class 0: F1-score is 0.50, which is the harmonic mean of precision and recall for class 0.
 
 For class 1: F1-score is 0.88, which is the harmonic mean of precision and recall for class 1.
 
 
-Support:
+##### Support:
 
 For class 0: There are 3 instances of class 0 in the dataset.
 
 For class 1: There are 7 instances of class 1 in the dataset.
 
 
-Accuracy: The overall accuracy of the model is 0.80, meaning it correctly predicts 80% of the
+##### Accuracy: 
+
+The overall accuracy of the model is 0.80, meaning it correctly predicts 80% of the
 instances in the dataset.
 
-Mean Average:
+
+
+
+##### Mean Average:
 
 Macro-average F1-score: 0.69
 Weighted-average F1-score: 0.76
 
+
+With logistic regression, an accuracy of 80% is obtained for the model.
+
+#### K nearest neighbours:
+
+##### Precision:
+
+For class 0: Precision is 1.00, indicating that when the model predicts class 0, it is correct all
+the time.
+
+For class 1: Precision is 0.88, indicating that when the model predicts class 1, it is correct
+88% of the time.
+
+##### Recall:
+
+For class 0: Recall is 0.67, indicating that the model correctly identifies 67% of the instances
+belonging to class 0.
+
+For class 1: Recall is 1.00, indicating that the model correctly identifies all instances
+belonging to class 1.
+
+##### F1 Score:
+
+For class 0: F1-score is 0.80, which is the harmonic mean of precision and recall for class 0.
+
+For class 1: F1-score is 0.93, which is the harmonic mean of precision and recall for class 1.
+
+##### Support:
+
+For class 0: There are 3 instances of class 0 in the dataset.
+
+For class 1: There are 7 instances of class 1 in the dataset.
+
+##### Accuracy: The overall accuracy of the model is 0.90, meaning it correctly predicts 90% of the
+instances in the dataset.
+
+##### Mean Average:
+
+Macro-average F1-score: 0.87
+
+Weighted-average F1-score: 0.89
+
+#### Decision Tree:
+
+##### Precision:
+
+For class 0 (precision = 1.00): All instances predicted as class 0 were actually class 0.
+
+For class 1 (precision = 0.88): 88% of instances predicted as class 1 were actually class 1.
+
+##### Recall:
+
+For class 0 (recall = 0.67): The model correctly identified 67% of the actual class 0 instances.
+
+For class 1 (recall = 1.00): The model correctly identified all actual class 1 instances.
+
+##### F1-score:
+
+For class 0 (F1-score = 0.80): Represents the overall accuracy of class 0 predictions.
+
+For class 1 (F1-score = 0.93): Represents the overall accuracy of class 1 predictions.
+
+##### Support:
+
+For class 0 (support = 3): There are 3 instances of class 0 in the dataset.
+
+For class 1 (support = 7): There are 7 instances of class 1 in the dataset.
+
+##### Accuracy:
+
+Overall accuracy (accuracy = 0.90): The model correctly predicts 90% of instances in the
+dataset.
+
+##### Macro-average and Weighted-average:
+
+Macro-average F1-score (0.87): The average F1-score across both classes, giving equal weight to each class.
+
+Weighted-average F1-score (0.89): The average F1-score across both classes, weighted by the number of instances in each class.
+
+#### Random Forest:
+
+##### Precision:
+
+ Precision for class 0: 0.00 (No true positives for class 0, hence precision is 0)
+ 
+ Precision for class 1: 0.70 (70% of the instances predicted as class 1 are actually class 1)
+##### Recall:
+
+Recall for class 0: 0.00 (No true positives for class 0, hence recall is 0)
+
+Recall for class 1: 1.00 (100% of the actual class 1 instances are correctly identified)
+##### F1-Score:
+
+F1-Score for class 0: 0.00 (No true positives for class 0)
+
+F1-Score for class 1: 0.82 (The harmonic mean of precision and recall for class 1)
+
+##### Support:
+
+Support for class 0: 3 (Number of instances of class 0 in the test set)
+
+Support for class 1: 7 (Number of instances of class 1 in the test set)
+
+##### Accuracy:
+
+Overall accuracy: 0.70 (70% of the instances are correctly classified)
+
+##### Macro-average and Weighted-average:
+
+Macro-average F1-score: 0.41 (The average F1-score across both classes, giving equal weight to each class)
+
+Weighted-average F1-score: 0.58 (The average F1-score across both classes, weighted by the number of instances in each class)
+
+#### Naïve Bayes:
+
+##### Precision:
+
+Precision for class 0: 0.00 (No true positives for class 0, hence precision is 0)
+
+Precision for class 1: 0.70 (70% of the instances predicted as class 1 are actually class 1)
+##### Recall:
+
+Recall for class 0: 0.00 (No true positives for class 0, hence recall is 0)
+
+Recall for class 1: 1.00 (100% of the actual class 1 instances are correctly identified)
+
+##### F1-score:
+
+F1-score for class 0: 0.00 (No true positives for class 0)
+
+F1-score for class 1: 0.82 (The harmonic mean of precision and recall for class 1)
+
+##### Support:
+
+Support for class 0: 3 (Number of instances of class 0 in the test set)
+
+Support for class 1: 7 (Number of instances of class 1 in the test set)
+
+##### Accuracy:
+
+Overall accuracy: 0.70 (70% of the instances are correctly classified)
+
+##### Macro-average and Weighted-average:
+
+Macro-average F1-score: 0.41 (The average F1-score across both classes, giving equal weight to each class)
+
+Weighted-average F1-score: 0.58 (The average F1-score across both classes, weighted by the number of instances in each class)
+
+### Inference:
+
+The aim of the analysis is to gain insights into the brand loyalty, choice and preference and spending habits of the consumers towards the product. This includes various steps to arrive at the conclusion like Data preprocessing, dimension reduction, Exploratory Data Analysis and Model building using Logistic Regression, KNN, Decision Tree, Random forest and Naïve Bayes methods. Considering all the types of models, KNN and Decision tree are the most appropriate ones with the accuracy of 90%. Thus Logistic regression is the efficient model building method for the analysis.
