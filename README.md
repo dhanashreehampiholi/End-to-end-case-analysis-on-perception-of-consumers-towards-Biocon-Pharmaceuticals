@@ -438,4 +438,6 @@ Weighted-average F1-score: 0.58 (The average F1-score across both classes, weigh
 
 ### Inference:
 
+<img width="480" alt="Inference" src="https://github.com/dhanashreehampiholi/End-to-end-case-analysis-on-perception-of-consumers-towards-Biocon-Pharmaceuticals/assets/57892263/cf8922f3-fef7-445a-9994-aa6abb6e79e0">
+
 The aim of the analysis is to gain insights into the brand loyalty, choice and preference and spending habits of the consumers towards the product. This includes various steps to arrive at the conclusion like Data preprocessing, dimension reduction, Exploratory Data Analysis and Model building using Logistic Regression, KNN, Decision Tree, Random forest and Naïve Bayes methods. Considering all the types of models, KNN and Decision tree are the most appropriate ones with the accuracy of 90%. Thus Logistic regression is the efficient model building method for the analysis.
